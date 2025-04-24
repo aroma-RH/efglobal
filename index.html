@@ -530,6 +530,21 @@ body {
 
       <div class="form-content">
         <div class="form-group">
+            <label class="form-label" for="finca-select">FINCs</label>
+            <div class="multi-select" id="finca-select">
+              <div class="multi-select-header">
+                <div class="selected-options" id="selected-fincas"></div>
+                <button class="dropdown-toggle">▼</button>
+              </div>
+              <div class="dropdown-menu">
+                <div class="search-container">
+                  <input type="text" class="search-input" placeholder="Rechercher FINCA...">
+                </div>
+                <div class="options-container"></div>
+              </div>
+            </div>
+          </div>
+        <div class="form-group">
           <label class="form-label" for="date">Date</label>
           <input type="date" id="date" class="form-input">
         </div>
@@ -541,21 +556,7 @@ body {
           </select>
         </div>
 
-        <div class="form-group">
-          <label class="form-label" for="finca-select">FINCs</label>
-          <div class="multi-select" id="finca-select">
-            <div class="multi-select-header">
-              <div class="selected-options" id="selected-fincas"></div>
-              <button class="dropdown-toggle">▼</button>
-            </div>
-            <div class="dropdown-menu">
-              <div class="search-container">
-                <input type="text" class="search-input" placeholder="Rechercher FINCA...">
-              </div>
-              <div class="options-container"></div>
-            </div>
-          </div>
-        </div>
+        
 
         <button id="select-tasks" class="btn btn-primary">
           <i class="icon-plus"></i>
